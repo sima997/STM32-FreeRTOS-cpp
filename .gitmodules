@@ -1,3 +1,6 @@
 [submodule "cmsis-device-g4"]
 	path = cmsis-device-g4
 	url = https://github.com/STMicroelectronics/cmsis-device-g4
+[submodule "freertos"]
+	path = freertos
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
