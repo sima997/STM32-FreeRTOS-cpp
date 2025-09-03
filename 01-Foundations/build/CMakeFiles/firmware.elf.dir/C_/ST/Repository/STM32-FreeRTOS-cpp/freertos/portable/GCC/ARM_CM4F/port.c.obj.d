@@ -1,0 +1,19 @@
+CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj: \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/01-Foundations/../freertos/include/FreeRTOS.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/include/stddef.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/include/stdint.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/stdint.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/machine/_default_types.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/features.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/_newlib_version.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_intsup.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_stdint.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/01-Foundations/freertos/FreeRTOSConfig.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/01-Foundations/../freertos/include/projdefs.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/01-Foundations/../freertos/include/portable.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/01-Foundations/../freertos/include/deprecated_definitions.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/01-Foundations/../freertos/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/01-Foundations/../freertos/include/mpu_wrappers.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/01-Foundations/../freertos/include/task.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/01-Foundations/../freertos/include/list.h

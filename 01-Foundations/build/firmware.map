@@ -1,0 +1,1167 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+                              CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj (memset)
+c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+                              CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj (__libc_init_array)
+c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+                              CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj (memcpy)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .text          0x00000000       0x14 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .rodata.APBPrescTable
+                0x00000000        0x8 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskDelete
+                0x00000000      0x128 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.uxTaskPriorityGet
+                0x00000000       0x54 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.uxTaskPriorityGetFromISR
+                0x00000000       0x78 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.uxTaskBasePriorityGet
+                0x00000000       0x54 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.uxTaskBasePriorityGetFromISR
+                0x00000000       0x78 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskPrioritySet
+                0x00000000      0x1d0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskSuspend
+                0x00000000      0x128 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.prvTaskIsTaskSuspended
+                0x00000000       0x8c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskResume
+                0x00000000      0x114 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskResumeFromISR
+                0x00000000      0x148 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskEndScheduler
+                0x00000000       0x64 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskGetTickCountFromISR
+                0x00000000       0x50 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.uxTaskGetNumberOfTasks
+                0x00000000       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.pcTaskGetName
+                0x00000000       0x4c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskGetStaticBuffers
+                0x00000000       0xc8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskCatchUpTicks
+                0x00000000       0x64 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0xb8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskRemoveFromUnorderedEventList
+                0x00000000      0x194 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskSetTimeOutState
+                0x00000000       0x54 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskGetCurrentTaskHandle
+                0x00000000       0x20 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskGetCurrentTaskHandleForCore
+                0x00000000       0x30 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskPriorityInherit
+                0x00000000      0x138 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskPriorityDisinherit
+                0x00000000      0x148 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x00000000      0x170 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x44 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.pvTaskIncrementMutexHeldCount
+                0x00000000       0x30 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.ulTaskGenericNotifyTake
+                0x00000000      0x10c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskGenericNotifyWait
+                0x00000000      0x13c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskGenericNotify
+                0x00000000      0x258 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskGenericNotifyFromISR
+                0x00000000      0x2c8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskGenericNotifyGiveFromISR
+                0x00000000      0x218 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskGenericNotifyStateClear
+                0x00000000       0x94 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.ulTaskGenericNotifyValueClear
+                0x00000000       0x98 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskResetState
+                0x00000000       0xb8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .text.vListInsertEnd
+                0x00000000       0x48 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueGenericGetStaticBuffers
+                0x00000000       0x82 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueGenericCreate
+                0x00000000       0xa6 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.prvInitialiseMutex
+                0x00000000       0x3c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueCreateMutex
+                0x00000000       0x30 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueCreateMutexStatic
+                0x00000000       0x36 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueGiveMutexRecursive
+                0x00000000       0x72 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueTakeMutexRecursive
+                0x00000000       0xb2 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueCreateCountingSemaphoreStatic
+                0x00000000       0x66 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueCreateCountingSemaphore
+                0x00000000       0x5e CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueGenericSend
+                0x00000000      0x20c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueGenericSendFromISR
+                0x00000000      0x15a CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueGiveFromISR
+                0x00000000      0x148 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueSemaphoreTake
+                0x00000000      0x208 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueuePeek
+                0x00000000      0x1b8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueReceiveFromISR
+                0x00000000      0x134 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueuePeekFromISR
+                0x00000000       0xd0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x3e CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x48 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000       0x3e CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.vQueueDelete
+                0x00000000       0x42 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.uxQueueGetQueueItemSize
+                0x00000000       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.uxQueueGetQueueLength
+                0x00000000       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.prvGetHighestPriorityOfWaitToReceiveList
+                0x00000000       0x34 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.prvCopyDataToQueue
+                0x00000000       0xd4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000       0x4a CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.prvIsQueueFull
+                0x00000000       0x30 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x4e CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.xTimerCreate
+                0x00000000       0x46 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.xTimerCreateStatic
+                0x00000000       0x84 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.prvInitialiseNewTimer
+                0x00000000       0x76 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.xTimerGenericCommandFromTask
+                0x00000000       0xa0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.xTimerGenericCommandFromISR
+                0x00000000       0x74 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.xTimerGetTimerDaemonTaskHandle
+                0x00000000       0x3c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.xTimerGetPeriod
+                0x00000000       0x3e CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.vTimerSetReloadMode
+                0x00000000       0x68 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.xTimerGetReloadMode
+                0x00000000       0x54 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.uxTimerGetReloadMode
+                0x00000000       0x1c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.xTimerGetExpiryTime
+                0x00000000       0x46 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.xTimerGetStaticBuffer
+                0x00000000       0x58 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.pcTimerGetName
+                0x00000000       0x3a CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.xTimerIsTimerActive
+                0x00000000       0x54 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.pvTimerGetTimerID
+                0x00000000       0x42 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.vTimerSetTimerID
+                0x00000000       0x42 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.vTimerResetState
+                0x00000000       0x24 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.xEventGroupCreateStatic
+                0x00000000       0x7c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.xEventGroupCreate
+                0x00000000       0x3e CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.xEventGroupSync
+                0x00000000      0x238 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.xEventGroupWaitBits
+                0x00000000      0x268 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.xEventGroupClearBits
+                0x00000000       0x90 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.xEventGroupGetBitsFromISR
+                0x00000000       0x50 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.xEventGroupSetBits
+                0x00000000      0x200 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.vEventGroupDelete
+                0x00000000       0x90 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.xEventGroupGetStaticBuffer
+                0x00000000       0x72 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.vEventGroupSetBitsCallback
+                0x00000000       0x20 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.vEventGroupClearBitsCallback
+                0x00000000       0x20 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text.prvTestWaitCondition
+                0x00000000       0x64 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .debug_info    0x00000000      0xb2a CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .debug_abbrev  0x00000000      0x2e5 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .debug_aranges
+                0x00000000       0x78 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .debug_rnglists
+                0x00000000       0x5a CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .debug_line    0x00000000      0x7ac CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .debug_str     0x00000000      0x7fe CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .comment       0x00000000       0x44 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .debug_frame   0x00000000      0x210 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .rodata.pcInterruptPriorityRegisters
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .text.vPortEndScheduler
+                0x00000000       0x38 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .text.vPortValidateInterruptPriority
+                0x00000000       0x84 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .text          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .data          0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .rodata.xHeapStructSize
+                0x00000000        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .text.xPortGetFreeHeapSize
+                0x00000000       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x00000000       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .text.xPortResetHeapMinimumEverFreeHeapSize
+                0x00000000       0x20 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .text.vPortInitialiseBlocks
+                0x00000000        0xe CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .text.pvPortCalloc
+                0x00000000       0x60 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .text.vPortGetHeapStats
+                0x00000000       0xbc CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .text.vPortHeapResetState
+                0x00000000       0x40 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .text          0x00000000        0x0 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .data          0x00000000        0x0 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .text          0x00000000        0x0 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .data          0x00000000        0x0 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .bss           0x00000000        0x0 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .text          0x00000000        0x0 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00020000         xr
+RAM              0x20000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+LOAD CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+LOAD CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+LOAD CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+LOAD CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+LOAD CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+LOAD CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+LOAD CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+LOAD CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/event_groups.c.obj
+LOAD CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+LOAD CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+LOAD c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libstdc++_nano.a
+LOAD c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+START GROUP
+LOAD c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a
+LOAD c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
+LOAD c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a
+LOAD c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
+LOAD c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a
+END GROUP
+                0x20008000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x08000000      0x1d8
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1d8 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+                0x08000000                g_pfnVectors
+
+.text           0x080001d8     0x36d8
+ *(.text*)
+ .text._init    0x080001d8        0xe CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+                0x080001d8                _init
+ .text._fini    0x080001e6        0xe CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+                0x080001e6                _fini
+ .text._ZN8UartPinsILi2EE4uartEv
+                0x080001f4       0x14 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080001f4                UartPins<2>::uart()
+ .text._ZN8UartPinsILi2EE11enableClockEv
+                0x08000208       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000208                UartPins<2>::enableClock()
+ .text.main     0x08000228       0x50 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000228                main
+ .text._ZN7TaskLedI4GpioILc65ELh7EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EELy500EE5startEPKctl
+                0x08000278       0x34 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000278                TaskLed<Gpio<(char)65, (unsigned char)7, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>, 500ull>::start(char const*, unsigned short, long)
+ .text._ZN7TaskLedI4GpioILc65ELh6EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EELy250EE5startEPKctl
+                0x080002ac       0x34 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080002ac                TaskLed<Gpio<(char)65, (unsigned char)6, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>, 250ull>::start(char const*, unsigned short, long)
+ .text._ZN8TaskUartI4UartILi2ELi115200EELy1000EE5startEPKctl
+                0x080002e0       0x38 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080002e0                TaskUart<Uart<2, 115200>, 1000ull>::start(char const*, unsigned short, long)
+ .text._ZN14TaskLedPreciseI4GpioILc65ELh5EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EELy500EE5startEPKctl
+                0x08000318       0x34 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000318                TaskLedPrecise<Gpio<(char)65, (unsigned char)5, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>, 500ull>::start(char const*, unsigned short, long)
+ .text._ZN7TaskLedI4GpioILc65ELh7EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EELy500EE7taskFunEPv
+                0x0800034c       0x1c CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800034c                TaskLed<Gpio<(char)65, (unsigned char)7, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>, 500ull>::taskFun(void*)
+ .text._ZN4GpioILc65ELh7EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE4initEv
+                0x08000368       0x2a CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000368                Gpio<(char)65, (unsigned char)7, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::init()
+ .text._ZN7TaskLedI4GpioILc65ELh6EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EELy250EE7taskFunEPv
+                0x08000392       0x1c CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000392                TaskLed<Gpio<(char)65, (unsigned char)6, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>, 250ull>::taskFun(void*)
+ .text._ZN4GpioILc65ELh6EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE4initEv
+                0x080003ae       0x2a CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080003ae                Gpio<(char)65, (unsigned char)6, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::init()
+ .text._ZN8TaskUartI4UartILi2ELi115200EELy1000EE7taskFunEPv
+                0x080003d8       0x24 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080003d8                TaskUart<Uart<2, 115200>, 1000ull>::taskFun(void*)
+ .text._ZN4UartILi2ELi115200EE4initEm
+                0x080003fc       0x60 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080003fc                Uart<2, 115200>::init(unsigned long)
+ .text._ZN14TaskLedPreciseI4GpioILc65ELh5EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EELy500EE7taskFunEPv
+                0x0800045c       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800045c                TaskLedPrecise<Gpio<(char)65, (unsigned char)5, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>, 500ull>::taskFun(void*)
+ .text._ZN4GpioILc65ELh5EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE4initEv
+                0x0800048a       0x2a CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800048a                Gpio<(char)65, (unsigned char)5, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::init()
+ .text._ZN4GpioILc65ELh7EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE6toggleEv
+                0x080004b4       0x16 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080004b4                Gpio<(char)65, (unsigned char)7, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::toggle()
+ *fill*         0x080004ca        0x2 
+ .text._ZN4GpioILc65ELh7EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE11enableClockEv
+                0x080004cc       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080004cc                Gpio<(char)65, (unsigned char)7, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::enableClock()
+ .text._ZN4GpioILc65ELh7EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE7setModeES0_
+                0x080004ec       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080004ec                Gpio<(char)65, (unsigned char)7, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setMode(GpioMode)
+ .text._ZN4GpioILc65ELh7EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE5setAFES3_
+                0x0800051a       0x14 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800051a                Gpio<(char)65, (unsigned char)7, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setAF(GpioAF)
+ .text._ZN4GpioILc65ELh7EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE8setSpeedES1_
+                0x0800052e       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800052e                Gpio<(char)65, (unsigned char)7, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setSpeed(GpioSpeed)
+ .text._ZN4GpioILc65ELh7EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE7setPullES2_
+                0x0800055c       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800055c                Gpio<(char)65, (unsigned char)7, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setPull(GpioPull)
+ .text._ZN4GpioILc65ELh7EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE8setOTypeES4_
+                0x0800058a       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800058a                Gpio<(char)65, (unsigned char)7, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setOType(GpioOType)
+ .text._ZN4GpioILc65ELh6EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE6toggleEv
+                0x080005aa       0x16 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080005aa                Gpio<(char)65, (unsigned char)6, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::toggle()
+ .text._ZN4GpioILc65ELh6EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE11enableClockEv
+                0x080005c0       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080005c0                Gpio<(char)65, (unsigned char)6, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::enableClock()
+ .text._ZN4GpioILc65ELh6EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE7setModeES0_
+                0x080005e0       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080005e0                Gpio<(char)65, (unsigned char)6, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setMode(GpioMode)
+ .text._ZN4GpioILc65ELh6EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE5setAFES3_
+                0x0800060e       0x14 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800060e                Gpio<(char)65, (unsigned char)6, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setAF(GpioAF)
+ .text._ZN4GpioILc65ELh6EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE8setSpeedES1_
+                0x08000622       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000622                Gpio<(char)65, (unsigned char)6, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setSpeed(GpioSpeed)
+ .text._ZN4GpioILc65ELh6EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE7setPullES2_
+                0x08000650       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000650                Gpio<(char)65, (unsigned char)6, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setPull(GpioPull)
+ .text._ZN4GpioILc65ELh6EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE8setOTypeES4_
+                0x0800067e       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800067e                Gpio<(char)65, (unsigned char)6, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setOType(GpioOType)
+ .text._ZN4UartILi2ELi115200EE4sendEPKc
+                0x0800069e       0x2a CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800069e                Uart<2, 115200>::send(char const*)
+ .text._ZN4GpioILc65ELh2EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE4initEv
+                0x080006c8       0x2a CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080006c8                Gpio<(char)65, (unsigned char)2, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::init()
+ .text._ZN4GpioILc65ELh3EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE4initEv
+                0x080006f2       0x2a CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080006f2                Gpio<(char)65, (unsigned char)3, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::init()
+ .text._ZN4UartILi2ELi115200EE1UEv
+                0x0800071c        0xe CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800071c                Uart<2, 115200>::U()
+ .text._ZN4GpioILc65ELh5EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE6toggleEv
+                0x0800072a       0x16 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800072a                Gpio<(char)65, (unsigned char)5, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::toggle()
+ .text._ZN4GpioILc65ELh5EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE11enableClockEv
+                0x08000740       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000740                Gpio<(char)65, (unsigned char)5, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::enableClock()
+ .text._ZN4GpioILc65ELh5EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE7setModeES0_
+                0x08000760       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000760                Gpio<(char)65, (unsigned char)5, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setMode(GpioMode)
+ .text._ZN4GpioILc65ELh5EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE5setAFES3_
+                0x0800078e       0x14 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800078e                Gpio<(char)65, (unsigned char)5, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setAF(GpioAF)
+ .text._ZN4GpioILc65ELh5EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE8setSpeedES1_
+                0x080007a2       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080007a2                Gpio<(char)65, (unsigned char)5, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setSpeed(GpioSpeed)
+ .text._ZN4GpioILc65ELh5EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE7setPullES2_
+                0x080007d0       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080007d0                Gpio<(char)65, (unsigned char)5, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setPull(GpioPull)
+ .text._ZN4GpioILc65ELh5EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE8setOTypeES4_
+                0x080007fe       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080007fe                Gpio<(char)65, (unsigned char)5, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::setOType(GpioOType)
+ .text._ZN4GpioILc65ELh7EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE4portEv
+                0x0800081e       0x12 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800081e                Gpio<(char)65, (unsigned char)7, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::port()
+ .text._ZN4GpioILc65ELh6EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE4portEv
+                0x08000830       0x12 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000830                Gpio<(char)65, (unsigned char)6, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::port()
+ .text._ZN4UartILi2ELi115200EE8sendCharEc
+                0x08000842       0x38 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000842                Uart<2, 115200>::sendChar(char)
+ *fill*         0x0800087a        0x2 
+ .text._ZN4GpioILc65ELh2EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE11enableClockEv
+                0x0800087c       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800087c                Gpio<(char)65, (unsigned char)2, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::enableClock()
+ .text._ZN4GpioILc65ELh2EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE7setModeES0_
+                0x0800089c       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x0800089c                Gpio<(char)65, (unsigned char)2, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::setMode(GpioMode)
+ .text._ZN4GpioILc65ELh2EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE5setAFES3_
+                0x080008ca       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080008ca                Gpio<(char)65, (unsigned char)2, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::setAF(GpioAF)
+ .text._ZN4GpioILc65ELh2EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE8setSpeedES1_
+                0x080008f8       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080008f8                Gpio<(char)65, (unsigned char)2, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::setSpeed(GpioSpeed)
+ .text._ZN4GpioILc65ELh2EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE7setPullES2_
+                0x08000926       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000926                Gpio<(char)65, (unsigned char)2, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::setPull(GpioPull)
+ .text._ZN4GpioILc65ELh2EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE8setOTypeES4_
+                0x08000954       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000954                Gpio<(char)65, (unsigned char)2, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::setOType(GpioOType)
+ .text._ZN4GpioILc65ELh3EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE11enableClockEv
+                0x08000974       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000974                Gpio<(char)65, (unsigned char)3, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::enableClock()
+ .text._ZN4GpioILc65ELh3EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE7setModeES0_
+                0x08000994       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000994                Gpio<(char)65, (unsigned char)3, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::setMode(GpioMode)
+ .text._ZN4GpioILc65ELh3EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE5setAFES3_
+                0x080009c2       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080009c2                Gpio<(char)65, (unsigned char)3, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::setAF(GpioAF)
+ .text._ZN4GpioILc65ELh3EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE8setSpeedES1_
+                0x080009f0       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x080009f0                Gpio<(char)65, (unsigned char)3, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::setSpeed(GpioSpeed)
+ .text._ZN4GpioILc65ELh3EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE7setPullES2_
+                0x08000a1e       0x2e CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000a1e                Gpio<(char)65, (unsigned char)3, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::setPull(GpioPull)
+ .text._ZN4GpioILc65ELh3EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE8setOTypeES4_
+                0x08000a4c       0x20 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000a4c                Gpio<(char)65, (unsigned char)3, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::setOType(GpioOType)
+ .text._ZN4GpioILc65ELh5EL8GpioMode1EL9GpioSpeed0EL8GpioPull0EL6GpioAF0EL9GpioOType0EE4portEv
+                0x08000a6c       0x12 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000a6c                Gpio<(char)65, (unsigned char)5, (GpioMode)1, (GpioSpeed)0, (GpioPull)0, (GpioAF)0, (GpioOType)0>::port()
+ .text._ZN4GpioILc65ELh2EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE4portEv
+                0x08000a7e       0x12 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000a7e                Gpio<(char)65, (unsigned char)2, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::port()
+ .text._ZN4GpioILc65ELh3EL8GpioMode2EL9GpioSpeed3EL8GpioPull0EL6GpioAF7EL9GpioOType0EE4portEv
+                0x08000a90       0x12 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+                0x08000a90                Gpio<(char)65, (unsigned char)3, (GpioMode)2, (GpioSpeed)3, (GpioPull)0, (GpioAF)7, (GpioOType)0>::port()
+ *fill*         0x08000aa2        0x2 
+ .text.Reset_Handler
+                0x08000aa4       0x50 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+                0x08000aa4                Reset_Handler
+ .text.Default_Handler
+                0x08000af4        0x2 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+                0x08000af4                RTC_Alarm_IRQHandler
+                0x08000af4                EXTI2_IRQHandler
+                0x08000af4                TIM8_TRG_COM_IRQHandler
+                0x08000af4                TIM8_CC_IRQHandler
+                0x08000af4                DebugMon_Handler
+                0x08000af4                TIM1_CC_IRQHandler
+                0x08000af4                HardFault_Handler
+                0x08000af4                USB_HP_IRQHandler
+                0x08000af4                CORDIC_IRQHandler
+                0x08000af4                NMI_Handler
+                0x08000af4                EXTI3_IRQHandler
+                0x08000af4                I2C3_ER_IRQHandler
+                0x08000af4                EXTI0_IRQHandler
+                0x08000af4                I2C2_EV_IRQHandler
+                0x08000af4                FPU_IRQHandler
+                0x08000af4                FDCAN1_IT1_IRQHandler
+                0x08000af4                TIM1_UP_TIM16_IRQHandler
+                0x08000af4                UsageFault_Handler
+                0x08000af4                ADC1_2_IRQHandler
+                0x08000af4                SPI1_IRQHandler
+                0x08000af4                TIM6_DAC_IRQHandler
+                0x08000af4                TIM8_UP_IRQHandler
+                0x08000af4                DMA2_Channel2_IRQHandler
+                0x08000af4                DMA1_Channel4_IRQHandler
+                0x08000af4                USART3_IRQHandler
+                0x08000af4                TIM4_IRQHandler
+                0x08000af4                DMA2_Channel1_IRQHandler
+                0x08000af4                I2C1_EV_IRQHandler
+                0x08000af4                DMA1_Channel6_IRQHandler
+                0x08000af4                UART4_IRQHandler
+                0x08000af4                DMA2_Channel4_IRQHandler
+                0x08000af4                TIM3_IRQHandler
+                0x08000af4                RCC_IRQHandler
+                0x08000af4                DMA1_Channel1_IRQHandler
+                0x08000af4                Default_Handler
+                0x08000af4                RTC_TAMP_LSECSS_IRQHandler
+                0x08000af4                FMAC_IRQHandler
+                0x08000af4                EXTI15_10_IRQHandler
+                0x08000af4                TIM7_IRQHandler
+                0x08000af4                UCPD1_IRQHandler
+                0x08000af4                I2C3_EV_IRQHandler
+                0x08000af4                EXTI9_5_IRQHandler
+                0x08000af4                RTC_WKUP_IRQHandler
+                0x08000af4                PVD_PVM_IRQHandler
+                0x08000af4                SPI2_IRQHandler
+                0x08000af4                MemManage_Handler
+                0x08000af4                DMA2_Channel5_IRQHandler
+                0x08000af4                CRS_IRQHandler
+                0x08000af4                DMA1_Channel5_IRQHandler
+                0x08000af4                USB_LP_IRQHandler
+                0x08000af4                EXTI4_IRQHandler
+                0x08000af4                RNG_IRQHandler
+                0x08000af4                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08000af4                DMA1_Channel3_IRQHandler
+                0x08000af4                WWDG_IRQHandler
+                0x08000af4                LPUART1_IRQHandler
+                0x08000af4                DMA2_Channel6_IRQHandler
+                0x08000af4                FDCAN1_IT0_IRQHandler
+                0x08000af4                TIM2_IRQHandler
+                0x08000af4                COMP1_2_3_IRQHandler
+                0x08000af4                EXTI1_IRQHandler
+                0x08000af4                USART2_IRQHandler
+                0x08000af4                I2C2_ER_IRQHandler
+                0x08000af4                DMA1_Channel2_IRQHandler
+                0x08000af4                TIM8_BRK_IRQHandler
+                0x08000af4                FLASH_IRQHandler
+                0x08000af4                BusFault_Handler
+                0x08000af4                USART1_IRQHandler
+                0x08000af4                SPI3_IRQHandler
+                0x08000af4                I2C1_ER_IRQHandler
+                0x08000af4                LPTIM1_IRQHandler
+                0x08000af4                DMAMUX_OVR_IRQHandler
+                0x08000af4                USBWakeUp_IRQHandler
+                0x08000af4                SAI1_IRQHandler
+                0x08000af4                DMA2_Channel3_IRQHandler
+                0x08000af4                COMP4_IRQHandler
+                0x08000af4                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x08000af6        0x2 
+ .text.SystemInit
+                0x08000af8       0xe8 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+                0x08000af8                SystemInit
+ .text.SystemCoreClockUpdate
+                0x08000be0       0xd4 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+                0x08000be0                SystemCoreClockUpdate
+ .text.prvCreateStaticTask
+                0x08000cb4       0xc2 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskCreateStatic
+                0x08000d76       0x48 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08000d76                xTaskCreateStatic
+ .text.prvCreateTask
+                0x08000dbe       0x80 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskCreate
+                0x08000e3e       0x46 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08000e3e                xTaskCreate
+ .text.prvInitialiseNewTask
+                0x08000e84      0x122 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ *fill*         0x08000fa6        0x2 
+ .text.prvAddNewTaskToReadyList
+                0x08000fa8      0x12c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskDelayUntil
+                0x080010d4      0x150 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x080010d4                xTaskDelayUntil
+ .text.vTaskDelay
+                0x08001224       0x70 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08001224                vTaskDelay
+ .text.prvCreateIdleTasks
+                0x08001294       0xec CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vTaskStartScheduler
+                0x08001380       0x98 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08001380                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x08001418       0x1c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08001418                vTaskSuspendAll
+ .text.xTaskResumeAll
+                0x08001434      0x22c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08001434                xTaskResumeAll
+ .text.xTaskGetTickCount
+                0x08001660       0x2c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08001660                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x0800168c      0x26c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x0800168c                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x080018f8       0xc0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x080018f8                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x080019b8       0x50 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x080019b8                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x08001a08       0x94 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08001a08                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x08001a9c      0x1b8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08001a9c                xTaskRemoveFromEventList
+ .text.vTaskInternalSetTimeOutState
+                0x08001c54       0x30 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08001c54                vTaskInternalSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x08001c84      0x114 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08001c84                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x08001d98       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08001d98                vTaskMissedYield
+ .text.prvIdleTask
+                0x08001db0       0x30 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.prvInitialiseTaskLists
+                0x08001de0       0x80 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.prvCheckTasksWaitingTermination
+                0x08001e60       0x5c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.prvDeleteTCB
+                0x08001ebc       0x60 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.prvResetNextTaskUnblockTime
+                0x08001f1c       0x40 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.xTaskGetSchedulerState
+                0x08001f5c       0x3c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x08001f5c                xTaskGetSchedulerState
+ .text.prvAddCurrentTaskToDelayedList
+                0x08001f98      0x114 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .text.vApplicationGetIdleTaskMemory
+                0x080020ac       0x34 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x080020ac                vApplicationGetIdleTaskMemory
+ .text.vApplicationGetTimerTaskMemory
+                0x080020e0       0x34 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x080020e0                vApplicationGetTimerTaskMemory
+ .text.vListInitialise
+                0x08002114       0x46 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+                0x08002114                vListInitialise
+ .text.vListInitialiseItem
+                0x0800215a       0x1a CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+                0x0800215a                vListInitialiseItem
+ .text.vListInsert
+                0x08002174       0x86 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+                0x08002174                vListInsert
+ .text.uxListRemove
+                0x080021fa       0x54 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+                0x080021fa                uxListRemove
+ *fill*         0x0800224e        0x2 
+ .text.xQueueGenericReset
+                0x08002250      0x124 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+                0x08002250                xQueueGenericReset
+ .text.xQueueGenericCreateStatic
+                0x08002374       0xc2 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+                0x08002374                xQueueGenericCreateStatic
+ .text.prvInitialiseNewQueue
+                0x08002436       0x3e CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.xQueueReceive
+                0x08002474      0x1cc CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+                0x08002474                xQueueReceive
+ .text.prvCopyDataFromQueue
+                0x08002640       0x4c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.prvUnlockQueue
+                0x0800268c       0xa4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.prvIsQueueEmpty
+                0x08002730       0x2c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .text.vQueueWaitForMessageRestricted
+                0x0800275c       0x6e CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+                0x0800275c                vQueueWaitForMessageRestricted
+ *fill*         0x080027ca        0x2 
+ .text.xTimerCreateTimerTask
+                0x080027cc       0x94 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+                0x080027cc                xTimerCreateTimerTask
+ .text.prvReloadTimer
+                0x08002860       0x6a CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ *fill*         0x080028ca        0x2 
+ .text.prvProcessExpiredTimer
+                0x080028cc       0x6c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.prvTimerTask
+                0x08002938       0x2a CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ *fill*         0x08002962        0x2 
+ .text.prvProcessTimerOrBlockTask
+                0x08002964       0xb8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.prvGetNextExpireTime
+                0x08002a1c       0x58 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.prvSampleTimeNow
+                0x08002a74       0x50 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.prvInsertTimerInActiveList
+                0x08002ac4       0xac CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.prvProcessReceivedCommands
+                0x08002b70      0x1f4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.prvSwitchTimerLists
+                0x08002d64       0x54 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.prvCheckForValidListAndQueue
+                0x08002db8       0x68 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .text.pxPortInitialiseStack
+                0x08002e20       0x68 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002e20                pxPortInitialiseStack
+ .text.prvTaskExitError
+                0x08002e88       0x5c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .text.vPortSVCHandler
+                0x08002ee4       0x24 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002ee4                vPortSVCHandler
+ .text.prvPortStartFirstTask
+                0x08002f08       0x2c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .text.xPortStartScheduler
+                0x08002f34      0x1e0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+                0x08002f34                xPortStartScheduler
+ .text.vPortEnterCritical
+                0x08003114       0x64 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+                0x08003114                vPortEnterCritical
+ .text.vPortExitCritical
+                0x08003178       0x54 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+                0x08003178                vPortExitCritical
+ .text.xPortPendSVHandler
+                0x080031cc       0x64 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+                0x080031cc                xPortPendSVHandler
+ .text.xPortSysTickHandler
+                0x08003230       0x44 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+                0x08003230                xPortSysTickHandler
+ .text.vPortSetupTimerInterrupt
+                0x08003274       0x38 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+                0x08003274                vPortSetupTimerInterrupt
+ .text.vPortEnableVFP
+                0x080032ac       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .text.pvPortMalloc
+                0x080032c4      0x270 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+                0x080032c4                pvPortMalloc
+ .text.vPortFree
+                0x08003534      0x10c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+                0x08003534                vPortFree
+ .text.prvHeapInit
+                0x08003640       0xb4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .text.prvInsertBlockIntoFreeList
+                0x080036f4       0xf4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .text.memset   0x080037e8       0x10 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+                0x080037e8                memset
+ .text.__libc_init_array
+                0x080037f8       0x48 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+                0x080037f8                __libc_init_array
+ .text.memcpy   0x08003840       0x1c c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+                0x08003840                memcpy
+ *(.rodata*)
+ .rodata        0x0800385c       0x2d CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ *fill*         0x08003889        0x3 
+ .rodata.AHBPrescTable
+                0x0800388c       0x10 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+                0x0800388c                AHBPrescTable
+ .rodata.uxTopUsedPriority
+                0x0800389c        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .rodata        0x080038a0        0x5 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ *fill*         0x080038a5        0x3 
+ .rodata        0x080038a8        0x8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+
+.glue_7         0x080038b0        0x0
+ .glue_7        0x080038b0        0x0 linker stubs
+
+.glue_7t        0x080038b0        0x0
+ .glue_7t       0x080038b0        0x0 linker stubs
+
+.vfp11_veneer   0x080038b0        0x0
+ .vfp11_veneer  0x080038b0        0x0 linker stubs
+
+.v4_bx          0x080038b0        0x0
+ .v4_bx         0x080038b0        0x0 linker stubs
+
+.iplt           0x080038b0        0x0
+ .iplt          0x080038b0        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+
+.rel.dyn        0x080038b0        0x0
+ .rel.iplt      0x080038b0        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+
+.data           0x20000000        0x8 load address 0x080038b0
+                0x20000000                        _sdata = .
+ *(.data*)
+ .data.SystemCoreClock
+                0x20000000        0x4 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+                0x20000000                SystemCoreClock
+ .data.uxCriticalNesting
+                0x20000004        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+                0x20000008                        _edata = .
+
+.igot.plt       0x20000008        0x0 load address 0x080038b8
+ .igot.plt      0x20000008        0x0 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+
+.bss            0x20000008     0x2fb4 load address 0x080038b8
+                0x20000008                        _sbss = .
+ *(.bss*)
+ .bss.pxCurrentTCB
+                0x20000008        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+                0x20000008                pxCurrentTCB
+ *fill*         0x2000000c        0x4 
+ .bss.pxReadyTasksLists
+                0x20000010       0x78 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xDelayedTaskList1
+                0x20000088       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xDelayedTaskList2
+                0x200000a0       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.pxDelayedTaskList
+                0x200000b8        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.pxOverflowDelayedTaskList
+                0x200000bc        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xPendingReadyList
+                0x200000c0       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xTasksWaitingTermination
+                0x200000d8       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x200000f0        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ *fill*         0x200000f4        0x4 
+ .bss.xSuspendedTaskList
+                0x200000f8       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.uxCurrentNumberOfTasks
+                0x20000110        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ *fill*         0x20000114        0x4 
+ .bss.xTickCount
+                0x20000118        0x8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.uxTopReadyPriority
+                0x20000120        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xSchedulerRunning
+                0x20000124        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xPendedTicks
+                0x20000128        0x8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xYieldPendings
+                0x20000130        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xNumOfOverflows
+                0x20000134        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.uxTaskNumber
+                0x20000138        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ *fill*         0x2000013c        0x4 
+ .bss.xNextTaskUnblockTime
+                0x20000140        0x8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xIdleTaskHandles
+                0x20000148        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.uxSchedulerSuspended
+                0x2000014c        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xIdleTaskTCB.3
+                0x20000150       0x60 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.uxIdleTaskStack.2
+                0x200001b0      0x200 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xTimerTaskTCB.1
+                0x200003b0       0x60 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.uxTimerTaskStack.0
+                0x20000410      0x200 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .bss.xActiveTimerList1
+                0x20000610       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .bss.xActiveTimerList2
+                0x20000628       0x18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .bss.pxCurrentTimerList
+                0x20000640        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .bss.pxOverflowTimerList
+                0x20000644        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .bss.xTimerQueue
+                0x20000648        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .bss.xTimerTaskHandle
+                0x2000064c        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .bss.xLastTime.2
+                0x20000650        0x8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .bss.ucStaticTimerQueueStorage.1
+                0x20000658       0xf0 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .bss.xStaticTimerQueue.0
+                0x20000748       0x50 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .bss.ucMaxSysCallPriority
+                0x20000798        0x1 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ *fill*         0x20000799        0x3 
+ .bss.ulMaxPRIGROUPValue
+                0x2000079c        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .bss.ucHeap    0x200007a0     0x2800 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .bss.xStart    0x20002fa0        0x8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .bss.pxEnd     0x20002fa8        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .bss.xFreeBytesRemaining
+                0x20002fac        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .bss.xMinimumEverFreeBytesRemaining
+                0x20002fb0        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .bss.xNumberOfSuccessfulAllocations
+                0x20002fb4        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .bss.xNumberOfSuccessfulFrees
+                0x20002fb8        0x4 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ *(COMMON)
+                0x20002fbc                        _ebss = .
+
+.heap           0x20002fbc     0x2000 load address 0x0800686c
+                0x20002fbc                        __heap_start__ = .
+                0x20004fbc                        . = (. + 0x2000)
+ *fill*         0x20002fbc     0x2000 
+                0x20004fbc                        __heap_end__ = .
+                0x20004fbc                        _end = .
+                0x080038b0                        _sidata = LOADADDR (.data)
+OUTPUT(firmware.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0x85b5
+ .debug_info    0x00000000       0x47 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_info    0x00000047     0x16b6 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_info    0x000016fd       0x30 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .debug_info    0x0000172d      0x67b CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_info    0x00001da8     0x297d CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .debug_info    0x00004725      0x2a6 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .debug_info    0x000049cb     0x1a18 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .debug_info    0x000063e3     0x1357 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .debug_info    0x0000773a      0x589 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_info    0x00007cc3      0x5e6 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .debug_info    0x000082a9       0xe0 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_info    0x00008389      0x10b c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_info    0x00008494      0x121 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_abbrev   0x00000000     0x1641
+ .debug_abbrev  0x00000000       0x2f CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_abbrev  0x0000002f      0x332 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_abbrev  0x00000361       0x24 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .debug_abbrev  0x00000385      0x118 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_abbrev  0x0000049d      0x389 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .debug_abbrev  0x00000826       0xec CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .debug_abbrev  0x00000912      0x342 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .debug_abbrev  0x00000c54      0x33a CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .debug_abbrev  0x00000f8e      0x233 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_abbrev  0x000011c1      0x258 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .debug_abbrev  0x00001419       0x9e c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_abbrev  0x000014b7       0xc9 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_abbrev  0x00001580       0xc1 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_aranges  0x00000000      0x830
+ .debug_aranges
+                0x00000000       0x28 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_aranges
+                0x00000028      0x1e8 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_aranges
+                0x00000210       0x28 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .debug_aranges
+                0x00000238       0x28 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_aranges
+                0x00000260      0x218 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .debug_aranges
+                0x00000478       0x40 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .debug_aranges
+                0x000004b8      0x130 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .debug_aranges
+                0x000005e8       0xf8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .debug_aranges
+                0x000006e0       0x80 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_aranges
+                0x00000760       0x70 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .debug_aranges
+                0x000007d0       0x20 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_aranges
+                0x000007f0       0x20 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_aranges
+                0x00000810       0x20 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_rnglists
+                0x00000000      0x634
+ .debug_rnglists
+                0x00000000       0x19 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_rnglists
+                0x00000019      0x169 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_rnglists
+                0x00000182       0x19 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .debug_rnglists
+                0x0000019b       0x1b CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_rnglists
+                0x000001b6      0x1bf CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .debug_rnglists
+                0x00000375       0x2c CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .debug_rnglists
+                0x000003a1       0xee CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .debug_rnglists
+                0x0000048f       0xbb CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .debug_rnglists
+                0x0000054a       0x5d CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_rnglists
+                0x000005a7       0x54 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .debug_rnglists
+                0x000005fb       0x13 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_rnglists
+                0x0000060e       0x13 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_rnglists
+                0x00000621       0x13 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_line     0x00000000     0x62f1
+ .debug_line    0x00000000       0x87 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_line    0x00000087      0xf2d CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_line    0x00000fb4       0x7b CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .debug_line    0x0000102f      0x37a CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_line    0x000013a9     0x1c52 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .debug_line    0x00002ffb      0x350 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .debug_line    0x0000334b     0x133a CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .debug_line    0x00004685      0xa05 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .debug_line    0x0000508a      0x5af CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_line    0x00005639      0x7c8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .debug_line    0x00005e01      0x17e c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_line    0x00005f7f      0x170 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_line    0x000060ef      0x202 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_str      0x00000000     0x4981
+ .debug_str     0x00000000     0x4981 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+                                0x17e (size before relaxing)
+ .debug_str     0x00004981     0x249d CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_str     0x00004981       0xa2 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .debug_str     0x00004981      0x483 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_str     0x00004981     0x1398 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .debug_str     0x00004981      0x34b CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .debug_str     0x00004981      0xcbe CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .debug_str     0x00004981      0xbee CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .debug_str     0x00004981      0x505 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_str     0x00004981      0x5ce CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .debug_str     0x00004981      0x211 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_str     0x00004981      0x272 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_str     0x00004981      0x22f c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+
+.comment        0x00000000       0x43
+ .comment       0x00000000       0x43 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+                                 0x44 (size before relaxing)
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .comment       0x00000043       0x44 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .comment       0x00000043       0x44 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .comment       0x00000043       0x44 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+
+.ARM.attributes
+                0x00000000       0x32
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .ARM.attributes
+                0x00000034       0x34 CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .ARM.attributes
+                0x00000068       0x21 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+ .ARM.attributes
+                0x00000089       0x34 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .ARM.attributes
+                0x000000bd       0x34 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .ARM.attributes
+                0x000000f1       0x34 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .ARM.attributes
+                0x00000125       0x34 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .ARM.attributes
+                0x00000159       0x34 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .ARM.attributes
+                0x0000018d       0x34 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .ARM.attributes
+                0x000001c1       0x34 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .ARM.attributes
+                0x000001f5       0x34 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000229       0x34 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x0000025d       0x34 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_frame    0x00000000     0x1fe0
+ .debug_frame   0x00000000       0x50 CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj
+ .debug_frame   0x00000050      0x7bc CMakeFiles/firmware.elf.dir/src/main.cpp.obj
+ .debug_frame   0x0000080c       0x54 CMakeFiles/firmware.elf.dir/src/system_stm32g4xx.c.obj
+ .debug_frame   0x00000860      0x998 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/tasks.c.obj
+ .debug_frame   0x000011f8       0xd8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/list.c.obj
+ .debug_frame   0x000012d0      0x528 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/queue.c.obj
+ .debug_frame   0x000017f8      0x438 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/timers.c.obj
+ .debug_frame   0x00001c30      0x1a8 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_frame   0x00001dd8      0x194 CMakeFiles/firmware.elf.dir/C_/ST/Repository/STM32-FreeRTOS-cpp/freertos/portable/MemMang/heap_4.c.obj
+ .debug_frame   0x00001f6c       0x20 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_frame   0x00001f8c       0x2c c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_frame   0x00001fb8       0x28 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)
+
+.debug_line_str
+                0x00000000       0x86
+ .debug_line_str
+                0x00000000       0x86 CMakeFiles/firmware.elf.dir/src/startup_stm32g431xx.s.obj
+
+.debug_loclists
+                0x00000000      0x13e
+ .debug_loclists
+                0x00000000       0x4d c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memset.o)
+ .debug_loclists
+                0x0000004d       0x44 c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-init.o)
+ .debug_loclists
+                0x00000091       0xad c:/ST/Repository/STM32-FreeRTOS-cpp/STM32TOOLS/GCC/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memcpy-stub.o)

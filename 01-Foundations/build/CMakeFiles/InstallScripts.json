@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/ST/Repository/STM32-FreeRTOS-cpp/01-Foundations/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

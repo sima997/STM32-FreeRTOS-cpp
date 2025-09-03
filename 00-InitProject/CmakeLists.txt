@@ -1,0 +1,87 @@
+cmake_minimum_required(VERSION 3.20)
+project(stm32_cpp_frertos LANGUAGES C CXX ASM)
+
+#MCU setup
+set(MCU "cortex-m4")
+
+
+
+#CPU Flags
+set(CPU_FLAGS
+    -mcpu=cortex-m4
+    -mthumb
+    -O0
+    -ffunction-sections 
+    -fdata-sections
+)
+
+#Set languague version requirements
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+#Toolchain
+set(CMAKE_C_COMPILER "${CMAKE_CURRENT_SOURCE_DIR}/../STM32TOOLS/GCC/bin/arm-none-eabi-gcc.exe")
+set(CMAKE_CXX_COMPILER "${CMAKE_CURRENT_SOURCE_DIR}/../STM32TOOLS/GCC/bin/arm-none-eabi-g++.exe")
+set(CMAKE_OBJCOPY "${CMAKE_CURRENT_SOURCE_DIR}/../STM32TOOLS/GCC/bin/arm-none-eabi-objcopy.exe")
+
+# Common compile options
+add_compile_options(
+    ${CPU_FLAGS}
+    -Wall
+    -Wextra
+    -fno-exceptions
+    -fno-rtti
+    -fno-unwind-tables
+    -fno-asynchronous-unwind-tables
+)
+
+# Include directories
+include_directories(
+    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/../freertos/include
+    ${CMAKE_SOURCE_DIR}/../cmsis-device-g4/Include 
+    ${CMAKE_SOURCE_DIR}/../cmsis-device-g4/Core/Include 
+    ${CMAKE_SOURCE_DIR}/freertos
+    ${CMAKE_SOURCE_DIR}/../freertos/portable/GCC/ARM_CM4F
+    ${CMAKE_SOURCE_DIR}/../freertos/portable/MemMang
+)
+
+# Source files (no FreeRTOS)
+file(GLOB SOURCES
+    ${CMAKE_SOURCE_DIR}/src/*.c
+    ${CMAKE_SOURCE_DIR}/src/*.cpp
+    ${CMAKE_SOURCE_DIR}/src/*.s
+    ${CMAKE_SOURCE_DIR}/src/*.S
+)
+
+# Add sources
+add_executable(firmware.elf 
+    ${SOURCES}
+    ${CMAKE_SOURCE_DIR}/../freertos/tasks.c
+    ${CMAKE_SOURCE_DIR}/../freertos/list.c
+    ${CMAKE_SOURCE_DIR}/../freertos/queue.c
+    ${CMAKE_SOURCE_DIR}/../freertos/timers.c
+    ${CMAKE_SOURCE_DIR}/../freertos/event_groups.c
+    ${CMAKE_SOURCE_DIR}/../freertos/portable/GCC/ARM_CM4F/port.c
+    ${CMAKE_SOURCE_DIR}/../freertos/portable/MemMang/heap_4.c
+)
+
+# Linker script + linker options
+target_link_options(firmware.elf PRIVATE
+    -T${CMAKE_SOURCE_DIR}/linker/stm32g431rb_freertos.ld
+    -Wl,-Map=firmware.map
+    -nostartfiles
+    -Wl,--gc-sections
+    --specs=nosys.specs
+    --specs=nano.specs
+)
+
+# Post-build: convert ELF -> BIN
+add_custom_command(TARGET firmware.elf POST_BUILD
+    COMMAND ${CMAKE_OBJCOPY} -O binary firmware.elf firmware.bin
+)
+
+set(CMAKE_BUILD_TYPE Debug)
+
+#C:/ST/CMake/bin/cmake -S . -B build   -G "Unix Makefiles"   -DCMAKE_TOOLCHAIN_FILE=arm-gcc-toolchain.cmake

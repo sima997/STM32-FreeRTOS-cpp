@@ -1,0 +1,3 @@
+C:/ST/Repository/STM32-FreeRTOS-cpp/00-InitProject/build/CMakeFiles/firmware.elf.dir
+C:/ST/Repository/STM32-FreeRTOS-cpp/00-InitProject/build/CMakeFiles/edit_cache.dir
+C:/ST/Repository/STM32-FreeRTOS-cpp/00-InitProject/build/CMakeFiles/rebuild_cache.dir
