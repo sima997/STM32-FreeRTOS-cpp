@@ -2,95 +2,80 @@ extern "C" {
 #include "stm32g431xx.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "queue.h"
 }
 
 #include "gpio_template.hpp"
+#include "task_template.hpp"
 #include "uart_template.hpp"
 
-using Led1 = Gpio<'A',5,GpioMode::Output>;
-using Led2 = Gpio<'A',6,GpioMode::Output>;
-using Led3 = Gpio<'A',7,GpioMode::Output>;
-using Uart_log = Uart<2, 115200>;
+// ---------- GPIO typedefs ----------
+using Led = Gpio<GpioPort::A, 5, GpioMode::Output>;
+using Button = Gpio<GpioPort::C, 13, GpioMode::Input>;
+// ----------- UART -------------------
+using UartLog = Uart<2,115200>;
+// ---------- Global objects ----------
+QueueHandle_t que_toggle;
+Led led;
+Button btn;
+UartLog uart;
 
+// ---------- EXTI ISR ----------
+extern "C" void EXTI15_10_IRQHandler() {
+    BaseType_t higher = pdFALSE;
+    bool pressed = true;
 
+    if (EXTI->PR1 & (1U << 13)) {
+        xQueueSendFromISR(que_toggle, &pressed, &higher);
+        EXTI->PR1 = (1U << 13); // clear pending
+        portYIELD_FROM_ISR(higher);
+    }
+}
 
-// ---------- Task 1 and 2 ----------
-template<typename LedPin, TickType_t DelayMS>
-class TaskLed {
-public :
-    static void start(const char* name, uint16_t stack_size, BaseType_t priority) {
-        xTaskCreate(taskFun, name, stack_size, nullptr, priority, nullptr);
-        LedPin::init();
+// ---------- LED Task ----------
+class LedTask : public Task {
+public:
+    void init() override {
+        led.init();
+        led.clear();
+        uart.init(128000000);
     }
 
-private :
-    static void taskFun(void* pvParameters) {
-        (void) pvParameters;
-        while(1) {
-            LedPin::toggle();
-            vTaskDelay(pdMS_TO_TICKS(DelayMS));
+private:
+    void run() override {
+        bool event;
+        for (;;) {
+            if (xQueueReceive(que_toggle, &event, portMAX_DELAY) == pdPASS) {
+                if (event) {
+                    led.toggle();
+                    uart.send("Event from queue. WOOW.\r\n");
+                }
+            }
         }
     }
 };
-
-
-// ---------- Task 3 ----------
-template<typename UartLog, TickType_t DelayMs>
-class TaskUart {
-public :
-    static void start(const char* name, uint16_t stack_size,BaseType_t priotity) {
-        xTaskCreate(taskFun, name, stack_size, nullptr, priotity, nullptr);
-        UartLog::init(128000000);
-    }
-private :
-    static void taskFun(void* pvParameters) {
-        (void) pvParameters;
-        while(1) {
-            UartLog::send("TicTac\r\n");
-            vTaskDelay(pdMS_TO_TICKS(DelayMs));
-        }
-        
-    }
-};
-
-// ---------- Task 4 ----------
-template<typename LedPin, TickType_t DelayMS>
-class TaskLedPrecise {
-public :
-    static void start(const char* name, uint16_t stack_size, BaseType_t priority) {
-        xTaskCreate(taskFun, name, stack_size, nullptr, priority, nullptr);
-        LedPin::init();
-    }
-
-private :
-    
-
-    static void taskFun(void* pvParameters) {
-        (void) pvParameters;
-        TickType_t xLastWakeupTime = xTaskGetTickCount();
-        while(1) {
-            LedPin::toggle();
-            vTaskDelayUntil(&xLastWakeupTime, pdMS_TO_TICKS(DelayMS));
-        }
-    }
-};
-
 
 // ---------- Main ----------
-int main(void) {
-    SystemCoreClockUpdate();
-    //Create Task 1
-    TaskLed<Led3,500>::start("Led1",256,1);
-    //Create Task 2
-    TaskLed<Led2,250>::start("Led2",256,1);
-    //Create Task 3
-    TaskUart<Uart_log, 1000>::start("UartLog",512,2);
-    //Create Task 4
-    TaskLedPrecise<Led1,500>::start("LedPrecise",256,1);
+int main() {
+    // 1. Initialize button
+    btn.init();
+    btn.setInterrupt(GpioIrqEdge::Falling);
 
-    //Run Scheduler
+    // 2. Create FreeRTOS queue
+    que_toggle = xQueueCreate(1, sizeof(bool));
+
+    // 3. NVIC priority and enable
+    NVIC_SetPriority(EXTI15_10_IRQn, 10); // safe with FreeRTOS
+    NVIC_EnableIRQ(EXTI15_10_IRQn);
+    __enable_irq();
+
+    // 4. Create LED task
+    static LedTask ledTask;   // static to ensure lifetime
+    ledTask.init();
+    xTaskCreate(Task::taskEntry, "LED Task", 256, &ledTask, 1, nullptr);
+
+    // 5. Start scheduler
     vTaskStartScheduler();
 
-    // Should never reach here
     while (1) { }
 }
