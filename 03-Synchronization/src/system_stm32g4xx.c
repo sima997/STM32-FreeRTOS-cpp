@@ -250,7 +250,7 @@ void SystemInit(void)
     // 5. Update SystemCoreClock variable
     SystemCoreClockUpdate();
 
-    __enable_irq();
+   
 }
 
 /**

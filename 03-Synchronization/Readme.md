@@ -1,150 +1,125 @@
-# Tasks and Communication
-## 1. Tasks in FreeRTOS + C++
-- Tasks must have signature `void(*)(void*)`.
-- In C++, we wrap this with a `static` entry function that casts the pointer back to `this`
+# Synchronization & Resource Management
+## 1. Event groups
+- **What:** A FreeRTOS object where each bit in a word is a flag
+- **Why:** Lets multiple tasks wait for multiple conditions simultaneously
+- **API:**
+  - `xEventGroupCreate()`
+  - `xEventGroupSetBits()` / `xEventGroupClearBits()`
+  - `xEventGroupWaitBits()`
+Example: `BIT_RED_READY | BIT_GREEN_READY` -> task waits until both lights are ready
 
+## 2. Software timers vs. Hardware timers
+- **Hardware Timer** = STM32 peripheral (TIM1, TIM2, ...). Runs independently of FreeRTOS, Good for precise PWM or interrupts.
+- **Software Timer** = Managed by FreeRTOS in the timer task. Runs after tick ISR wakes timer task. Good for periodic scheduling without consuming hardware resources.
+- **API:**
+  - `xTimerCreate()`
+  - `xTimerStart()` / `xTimerStop()`
+  - Callback -> executed in **timer task context**, not interrupt
+
+## 3. Static vs Dynamic Allocation
+- Dynamic: `xTaskCreate()` / `xQueueCreate()` -> memory comes from FreeRTOS heap
+- Static: `xTaskCreateStatic()`, `xQueueCreateStatic()` -> you provide the buffer/stack
+- Use static if:
+  - System with limited RAM
+  - Safety-critical (no fragmentation allowed)
+- Use dynamic if:
+  - Flexibility, tasks created/destroyed on demand
+
+## 4. C++ `new`/`delete` with FreeRTOS
+- By default, `new`/`delete` use `malloc`/`free`
+- If you use FreeRTOS heap (`heap_4.c`), you must redirect them
+- Override global operators:
 ```cpp
-class Task {
-public :
-    virtual void run() = 0;
+void* operator new(size_t size) {
+  return pvPortMalloc(size);
+}
 
-    static void taskEntry(void* pvParams) {
-      static_cast<Task*>(pvParams)->run();
-    }
-
-};
+void operator delete(void* ptr) noexcept {
+  vPortFree(ptr);
+}
 ```
-
-Derived tasks (Blink, UART, etc.) override `run()`.
-
-## 2. Delays
-- `vTaskDelay(ticks)` suspend task for N ticks.
-- `vTaksDelayUntil(&lastWakeTime, ticks)` -> periodic timing, avoids drift
-- Ticks depend on `configTICK_RATE_HZ` (e.g., 1000 -> 1 ms)
-
-## 3. Queues
-- Thread-safe FIFO
-- FreeRTOS API:
-  - `xQueueCreate(len, item_size)`
-  - `xQueueSend` / `xQueueReceive` 
-- In C++, wrap with templates:
-
-```cpp
-template<typename T>
-class Queue {
-  QueueHandle_t q;
-public :
-  Queue(size_t length) {
-      q = xCreateQueue(length, sizeof(T));
-  }
-
-  bool send(const T& item, TickType_t wait = 0) {
-    return xQueueSend(q, &item, wait) == pdPass;
-  }
-
-  bool receive(T& item, TickType_t wait = portMAX_DELAY) {
-    return xQueueReceive(q, &item, wait) == pdPass;
-  }
-};
-```
-
-## 4. Mutex and Semaphore
-- **Mutex** -> resource protection (e.g. UART). Supports **priority inheritance**
-- **Binary semaphore** -> signal from ISR to task
-- Use `xSemaphoreGiveFromISR()` in interrupts
+Now `new` and `delete` are FreeRTOS-aware
 
 # Practice
-## 1. Implement Task Wrapper
+## 1. Event Group Demo
+Create two tasks: one sets event bits, snother waits
 ```cpp
 
-class BlinkTask : public Task {
+EventGroupHandle_t eg;
+
+#define BIT_TASK1     (1 << 0)
+#define BIT_TASK2     (1 << 1)
+
+class Task1 : public Task {
   void run() override {
-      while(1) {
-        GPIOA->ODR ^= (1 << 5); //Toggle PA5
-        vTaskDelay(pdMS_TO_TICKS(500));
-      }
-  }
-};
-```
-
-Startup:
-```cpp
-BlinkTask blink;
-xTaskCreate(Task::taskEntry, "Blink", 256, &blink, 1, nullptr);
-vTaskStartScheduler();
-```
-
-## 2. Two Tasks Exchanging Messages
-
-```cpp
-Queue<int> q(5);
-
-class Producer : public Task {
-  void run() override {
-    int counter = 0;
-    while(1) {
-      q.send(counter++);
+    for(;;) {
       vTaskDelay(pdMS_TO_TICKS(1000));
+      xEventGroupSetBit(eg, BIT_TASK1);
     }
   }
 };
 
-
-class Consumer : public Task {
+class Task2 : public Task {
   void run() override {
-    int value;
-    while(1) {
-      if (q.receive(value)) {
-        GPIO->ODR ^= (1 << 5);
-        vTaskDelay(pdMS_TO_TICKS(100));
-      }
+    for(;;) {
+      vTaskDelay(pdMS_TO_TICKS(1500));
+      xEventGroupSetBit(eg, BIT_TASK2);
+    }
+  }
+};
+
+class Coordinator : public Task {
+  void run() override {
+    for (;;) {
+      EventBits_t bits = xEventGroupWaitBits(
+        eg, BIT_TASK1 | BIT_TASK2,
+        pdTRUE,   //clear on exit
+        pdTRUE,   //wait for both
+        portMAX_DELAY
+      );
+      GPIOA->ODR ^= (1 << 5); //toggle LED
     }
   }
 };
 ```
-## 3. Protect Shared UART with Mutex
+
+## 2. Software Timer Demo
+```cpp
+
+void vTimerCallback(TimerHandle_t xTimer) {
+  GPIO->ODR ^= (1 << 5); //Blink LED every 500ms
+}
+
+TimerHandle_t ledTimer;
+
+ledTimer = xTimerCreate("LED", pdMS_TO_TICKS(500),
+                        pdTRUE,
+                        nullptr,
+                        vTimerCallback);
+
+xTimerStart(ledTimer, 0);
+```
+
+## 3. Heap Schemes Experiment
+- Compile with different `heap_x.c` files:
+  - `heap_1.c` -> tasks cannot be deleted (no free)
+  - `heap_2.c` -> free works, but fragmentation possible
+  - `heap_4.c` -> most flexible, recomended.
+  - `heap_5.c` -> muti-region (useful if RAM is split)
+- Measure memory with `xPortGetFreeHeapSize()` and `xPortGetMinimumEverFreeHeapSize()`
 
 ```cpp
-Queue<char> uartQ(32);
-SemaphoreHandle_t uartMutex;
-
-class UARTTask : public Task {
-  void run() override {
-    char c;
-    while(1) {
-      if (uartQ.receive(c)) {
-        xSemaphoreTake(uartMutex, portMAX_DELAY);
-        while (!(USART2->ISR & USART_ISR_TXE)) {}
-        USART2->TDR = c;
-        xSemaphoreGive(uartMutex);
-      }
-    }
-  }
-};
+printf("Free: %u, Min Ever: %u\r\n",
+      xPortGetFreeHeapSize(),
+      xPortGetMinimumEverFreeHeapSize());
 ```
 
-# Project: Button + LED with Queue
-**Goal:**
-- ISR -> detect button press(PC13).
-- Send event (true/false) to queue
-- Task -> receive event, toggle LED, log via UART
-## ISR / FreeRTOS Safety Rules for STM32 (Lesson learned)
-
-1. **Avoid calling C++ methods in ISR**  
-   Do NOT call member functions, virtual methods, or constructors directly from an ISR unless they are fully reentrant and only use local/volatile variables.
-
-2. **Initialize FreeRTOS objects first**  
-   Always create queues, semaphores, or other kernel objects **before enabling the interrupt** that will use them.
-
-3. **Sending data from ISR**  
-   - Use `xQueueSendFromISR()` or `xSemaphoreGiveFromISR()`.  
-   - Always pass a **pointer to the data**, not the value itself.  
-   - Ensure the queue element size matches the data type.
-
-4. **Keep ISRs short and deterministic**  
-   - Do not block, allocate memory, or call delay functions.  
-   - Only set flags, toggle simple GPIO, or send events to queues/semaphores.
-
-5. **Clear pending interrupt flags promptly**  
-   ```c
-   EXTI->PR1 = (1 << LINE_NUMBER);
+# Project: Trafic Light Controller
+**Goal:** Simulate a trafic light using FreeRTOS tasks, event groupt and software timer
+- **LEDs:**
+  - PA5 = Green
+  - PB0 - Yellow
+  - PB7 = Red
+- **Event group bits**:
+  - `BIT_RED`, `BIT_GREEN`, `BIT_YELLOW`
+- **Software timer:** Fires every second -> sets event for next state
