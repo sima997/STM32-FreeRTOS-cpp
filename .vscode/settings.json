@@ -27,6 +27,11 @@
         "unordered_set": "cpp",
         "string_view": "cpp",
         "rope": "cpp",
-        "slist": "cpp"
-    }
+        "slist": "cpp",
+        "algorithm": "cpp",
+        "xlocale": "cpp",
+        "condition_variable": "cpp",
+        "expected": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }

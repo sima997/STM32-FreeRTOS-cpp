@@ -1,0 +1,2 @@
+#C:/ST/Repository/STM32-FreeRTOS-cpp/STM32Tools/CMake/bin/cmake -S . -B build   -G "Unix Makefiles"   -DCMAKE_TOOLCHAIN_FILE=arm-gcc-toolchain.cmake
+../STM32Tools/CMake/bin/cmake -S . -B build   -G "Unix Makefiles"   -DCMAKE_TOOLCHAIN_FILE=arm-gcc-toolchain.cmake

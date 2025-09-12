@@ -1,0 +1,28 @@
+CMakeFiles/firmware.elf.dir/src/task_template.cpp.obj: \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/src/task_template.cpp \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/include/task_template.hpp \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/cstdint \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/pstl/pstl_config.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/include/stdint.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/stdint.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/machine/_default_types.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/features.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/_newlib_version.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_intsup.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_stdint.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/include/watchdog.hpp \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../freertos/include/FreeRTOS.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/include/stddef.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/freertos/FreeRTOSConfig.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../freertos/include/projdefs.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../freertos/include/portable.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../freertos/include/deprecated_definitions.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../freertos/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../freertos/include/mpu_wrappers.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../freertos/include/event_groups.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../freertos/include/timers.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../freertos/include/task.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../freertos/include/list.h
