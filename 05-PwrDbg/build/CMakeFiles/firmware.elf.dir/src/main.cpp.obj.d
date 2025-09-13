@@ -33,6 +33,7 @@ CMakeFiles/firmware.elf.dir/src/main.cpp.obj: \
  C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../cmsis-device-g4/Core/Include/mpu_armv7.h \
  C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../cmsis-device-g4/Include/system_stm32g4xx.h \
  C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/include/gpio_template.hpp \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/include/device_defines.hpp \
  c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/cstring \
  c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/string.h \
  c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/_ansi.h \
@@ -50,7 +51,6 @@ CMakeFiles/firmware.elf.dir/src/main.cpp.obj: \
  c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/string.h \
  C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/include/task_template.hpp \
  C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/include/adc12_template.hpp \
- C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/include/device_defines.hpp \
  c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/c++/13.3.1/type_traits \
  C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/include/watchdog.hpp \
  C:/ST/Repository/STM32-FreeRTOS-cpp/05-PwrDbg/../freertos/include/event_groups.h \

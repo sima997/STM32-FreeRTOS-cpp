@@ -31,7 +31,9 @@
         "algorithm": "cpp",
         "xlocale": "cpp",
         "condition_variable": "cpp",
-        "expected": "cpp"
+        "expected": "cpp",
+        "future": "cpp",
+        "mutex": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

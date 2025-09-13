@@ -221,6 +221,10 @@ public:
      */
     AdcError start_conversion(uint16_t& out) {
         auto error = AdcError::None;
+
+        // Clear EOC flag before starting
+        ADC1->ISR |= ADC_ISR_EOC;
+
         // Start ADC conversion
         ADC1->CR |= ADC_CR_ADSTART;
 
@@ -230,13 +234,13 @@ public:
 
         // Check for timeout
         if(!timeout) {
-            //Update internal status
+            // Update internal status
             error = AdcError::ConversionTimeout; 
             return error;
         } 
 
         // Read ADC conversion result
-        out = (ADC1->DR & 0xFFFF);
+        out = static_cast<uint16_t>(ADC1->DR & 0xFFFF);
         
         return error;
     }

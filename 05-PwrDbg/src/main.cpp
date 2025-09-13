@@ -43,16 +43,16 @@ float temperature = 0.0f;
 template<typename LedPin>
 class BlinkTask : public Task {
     public:
-        BlinkTask() : Task("Blink") {}
+        BlinkTask(LedPin& led) : Task("Blink"), led_(led) {}
         void init() override {
-            LedPin::init();
+            
         }
 
         void run() override {
             
             for (;;) {
                 
-                Led::toggle();
+                led_.toggle();
                 notifyAlive();
                 vTaskDelay(pdMS_TO_TICKS(500));
                     
@@ -61,6 +61,7 @@ class BlinkTask : public Task {
 
 
     private:
+        LedPin& led_;
         
 };
 
@@ -129,9 +130,12 @@ int main() {
     //Create queue
     adc_queue = xQueueCreate(1, sizeof(uint16_t));
 
+    //Led
+    Led led_green;
+
     // UART init
     Uart2 uart2;
-    uart2.init(128000000);
+    
 
     // Adc init (no internal uart functionality)
     Adc_temp adc_temp;
@@ -141,7 +145,7 @@ int main() {
     
     
     //Instantiate tasks
-    static BlinkTask<Led> blink;
+    static BlinkTask<Led> blink(led_green);
     static SensorTask<Adc_temp> sensor(adc_temp);
     static LogTask<Uart2> log(uart2);
     
