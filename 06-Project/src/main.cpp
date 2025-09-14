@@ -8,6 +8,7 @@
 #include "logger_task.hpp"
 #include "processing_task.hpp"
 #include "blink_task.hpp"
+#include "watchdog.hpp"
 
 //Drivers templates (RAII)
 using Uart2 = Uart<2, 115200>;
@@ -37,11 +38,22 @@ int main(void) {
     static ProcessingTask processing(adc_queue, process_queue);
     static BlinkTask<Led> heartbeat(led_green);
 
+    //Initialize Watchdog and register tasks
+    WatchdogSupervisor::init(1000);
+    WatchdogSupervisor::registerTask(&sensor);
+    WatchdogSupervisor::registerTask(&logger);
+    WatchdogSupervisor::registerTask(&processing);
+    WatchdogSupervisor::registerTask(&heartbeat);
+
     //Create tasks
     xTaskCreate(Task::taskEntry, "SensorTask", 512, &sensor, 1, nullptr);
-    xTaskCreate(Task::taskEntry, "LoggerTask", 512, &logger, 1, nullptr);
-    xTaskCreate(Task::taskEntry, "ProcessingTask",1024, &processing, 1, nullptr);
+    xTaskCreate(Task::taskEntry, "LoggerTask", 256, &logger, 1, nullptr);
+    xTaskCreate(Task::taskEntry, "ProcessingTask",1024, &processing, 2, nullptr);
     xTaskCreate(Task::taskEntry, "HeartBeatTask", 256, &heartbeat, 1, nullptr);
+
+    
+    //Create watchdog task
+    xTaskCreate(WatchdogSupervisor::taskEntry, "Watchdog",256, nullptr, 3, nullptr);
 
     __enable_irq();
     vTaskStartScheduler();

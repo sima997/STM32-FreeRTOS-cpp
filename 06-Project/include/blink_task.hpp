@@ -15,6 +15,7 @@ public:
 
         for(;;) {
             led_.toggle();
+            notifyAlive();
             vTaskDelay(pdMS_TO_TICKS(1000));
         }
     }

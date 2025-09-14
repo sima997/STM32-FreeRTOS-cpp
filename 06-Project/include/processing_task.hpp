@@ -25,10 +25,6 @@ public:
         ProcessingState state = ProcessingState::Idle;
 
         for(;;) {
-            if(sensor_queue_ != nullptr) {
-                
-            }
-
             switch(state) {
                 case ProcessingState::Idle:
                     if(sensor_queue_ != nullptr && process_queue_ != nullptr) {
@@ -51,12 +47,13 @@ public:
                     break;
                 case ProcessingState::Send:
                     if(xQueueSendToBack(process_queue_, &temperature_filt, 0) == pdPASS) state = ProcessingState::Receive;
+                    notifyAlive();
                     break;
                 case ProcessingState::Error:
                     //TODO: Retrial
                     break;
             }
-
+            
         }
     }
 

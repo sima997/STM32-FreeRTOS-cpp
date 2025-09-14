@@ -5,7 +5,7 @@
 
 void WatchdogSupervisor::init(uint32_t periodMs) {
     
-    initHw(IWDG_PR::DIV32,2000);
+    initHw(IWDG_PR::DIV32,4000);
     periodTicks = pdMS_TO_TICKS(periodMs);
     aliveFlags = xEventGroupCreate();
 }

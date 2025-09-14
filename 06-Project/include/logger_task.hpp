@@ -27,7 +27,8 @@ public:
                 }
             }else {
                 ErrorStatus = TaskError::Queue;
-            }  
+            } 
+            notifyAlive(); 
         }        
     }
 private:

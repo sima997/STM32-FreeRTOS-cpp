@@ -54,4 +54,7 @@ CMakeFiles/firmware.elf.dir/src/main.cpp.obj: \
  C:/ST/Repository/STM32-FreeRTOS-cpp/06-Project/include/logger_task.hpp \
  C:/ST/Repository/STM32-FreeRTOS-cpp/06-Project/include/processing_task.hpp \
  C:/ST/Repository/STM32-FreeRTOS-cpp/06-Project/include/moving_avg_template.hpp \
- C:/ST/Repository/STM32-FreeRTOS-cpp/06-Project/include/blink_task.hpp
+ C:/ST/Repository/STM32-FreeRTOS-cpp/06-Project/include/blink_task.hpp \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/06-Project/include/watchdog.hpp \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/06-Project/../freertos/include/event_groups.h \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/06-Project/../freertos/include/timers.h

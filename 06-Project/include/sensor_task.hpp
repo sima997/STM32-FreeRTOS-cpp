@@ -29,6 +29,7 @@ public:
             }else {
                 ErrorStatus = TaskError::Queue;
             }
+            notifyAlive();
             vTaskDelayUntil(&last, pdMS_TO_TICKS(1000)); //For precise timing
         }
         
