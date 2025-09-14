@@ -75,6 +75,7 @@ target_link_options(firmware.elf PRIVATE
     -Wl,--gc-sections
     --specs=nosys.specs
     --specs=nano.specs
+    -u _printf_float 
 )
 
 # Post-build: convert ELF -> BIN

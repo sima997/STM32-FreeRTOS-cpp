@@ -1,6 +1,14 @@
 #pragma once
 #include <cstdint>
 
+enum class TaskError {
+    None = 0,
+    Adc,
+    Uart,
+    I2c,
+    Queue
+};
+
 //Forward declaration of WatchdogSupervisor
 class WatchdogSupervisor;
 

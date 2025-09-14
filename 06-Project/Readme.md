@@ -272,3 +272,29 @@ int main(void) {
 - `Uart` and `LoggerTask` are **statically allocated** -> no malloc
 - RAII ensures 'Uart' initialized at startup
 - Templates ensures **zero overhead config**
+
+# Practice
+Implement **4 tasks:**
+- **Task A - SensorTask**
+  - Periodically reads ADC data
+  - Sends raw values into a queue
+- **Task B - ProcessingTask**
+  - Receives samples from sensor queue
+  - Applies a **moving average filter**
+  - Pushes results into another queue
+- **Task C - LoggerTask**
+  - Receives filtered results
+  - Prints them over UART (`Uart::send`)
+- **Task D - LedTask**
+  - Toggles LED every second
+  - Indicates system is allive
+
+**Data Flow**
+```
+[SensorTask] -- raw samples --> [ProcessingTask] -- filtered data --> [LoggerTask]
+                                                   |
+                                              (alive flag)
+                                                   |
+                                               [Watchdog]
+```
+Led task runs independently (blinking heartbeat)
