@@ -298,3 +298,10 @@ Implement **4 tasks:**
                                                [Watchdog]
 ```
 Led task runs independently (blinking heartbeat)
+
+# Project - Mini Data Logger
+- Sensor task "samples" at 10 Hz
+- Processing task applies moving average filter
+- Logger prints processed values
+- LED blinks 1 Hz
+- Watchdog ensures all tasks alive; system resets othewise

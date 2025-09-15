@@ -1,0 +1,25 @@
+CMakeFiles/firmware.elf.dir/src/crt_stubs.c.obj: \
+ C:/ST/Repository/STM32-FreeRTOS-cpp/07-Final/src/crt_stubs.c \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/types.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/_ansi.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/newlib.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/_newlib_version.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/config.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/machine/ieeefp.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/features.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/cdefs.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/machine/_default_types.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/include/stddef.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/machine/_types.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_types.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_stdint.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/machine/endian.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/machine/_endian.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/select.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_sigset.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_timeval.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/timespec.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_timespec.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/_pthreadtypes.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/sys/sched.h \
+ c:\ST\Repository\STM32-FreeRTOS-cpp\STM32TOOLS\GCC\bin\../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include/machine/types.h
